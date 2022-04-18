@@ -30,7 +30,7 @@ export default function Home() {
                 </Link>
                 <Link href='https://www.linkedin.com/in/ifenna-monanu-449898198/'>
                   <a target='_blank'>
-                    <FiLinkedin className='text-white text-2xl' />
+                    <FiLinkedin className='text-white text-2xl mr-8' />
                   </a>
                 </Link>
                 <Link href='https://github.com/Ifenna-Pascal'>
