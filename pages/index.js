@@ -5,7 +5,7 @@ import Hero from '../components/Hero'
 import Nav from '../components/Nav'
 import Projects from '../components/Projects'
 import Stacks from '../components/Stacks'
-import {FiTwitter, FiLinkedin} from 'react-icons/fi';
+import {FiTwitter, FiLinkedin, FiGithub} from 'react-icons/fi';
 
 export default function Home() {
   return (
@@ -31,6 +31,11 @@ export default function Home() {
                 <Link href='https://www.linkedin.com/in/ifenna-monanu-449898198/'>
                   <a target='_blank'>
                     <FiLinkedin className='text-white text-2xl' />
+                  </a>
+                </Link>
+                <Link href='https://github.com/Ifenna-Pascal'>
+                  <a target='_blank'>
+                    <FiGithub className='text-white text-2xl' />
                   </a>
                 </Link>
              </div>
