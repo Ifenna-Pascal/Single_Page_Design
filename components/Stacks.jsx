@@ -76,9 +76,9 @@ function Stacks() {
         </span> */}
         <div className="flex lg:flex-row flex-col items-center gap-x-8 justify-between my-6">
            {/* <Slider {...settings}> */}
-           <Stack image="/imgs/frontend.jpg" text='Frontend Develpment' sm='React-Next.js' />
-            <Stack image="/imgs/backend.jpg" text='Backend Develpment' sm='NodeJS' />
-            <Stack image="/imgs/blockchain.jpg" text='Blockchain Develpment' sm='Solidity-Web3.js' />
+           <Stack image="/imgs/frontend.jpg" text='Software Engineering' sm='C & C#' />
+            <Stack image="/imgs/backend.jpg" text='Simulation & Control' sm='MATLAB' />
+            {/* <Stack image="/imgs/blockchain.jpg" text='Blockchain Develpment' sm='Solidity-Web3.js' /> */}
            {/* </Slider> */}
             {/* <Stack image="/imgs/frontend.jpg" text='Blockchain Develpment' sm='Solidity-Web3.js' /> */}
         </div>

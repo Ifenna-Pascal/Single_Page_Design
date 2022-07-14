@@ -50,7 +50,7 @@ function Contact() {
   };
   return (
     <div id="contact">
-      <section className="w-full max-w-2xl px-6 py-4 mx-auto my-12 bg-white rounded-md shadow-md dark:bg-gray-800">
+      <section className="w-full max-w-2xl px-6 py-4 mx-auto my-12  rounded-md dark:bg-gray-800">
         <h2 className="text-3xl font-semibold text-center text-gray-800 dark:text-white">
           Get in touch
         </h2>

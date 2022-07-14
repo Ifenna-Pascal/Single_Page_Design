@@ -22,13 +22,13 @@ function Nav() {
       } z-50 opacity-70  sticky top-0`}
     >
       <div
-        className={`md:max-w-[70%]  max-w-[80%] mx-auto flex justify-between items-center py-6`}
+        className={`md:max-w-[70%]  max-w-[85%] mx-auto flex justify-between items-center py-6`}
       >
         <div className="flex-1 hover:cursor-pointer" onClick={()=> scroll.scrollToTop()}>
-          <span className="font-Poppins text-2xl italic text-[#474C55] font-semi-bold">
-            &#60;ife
-            <span className="text-[#fb9e9e] w-8 h-8 italic font-bold">.</span>
-            eth&#62;
+          <span className="font-Poppins text-3xl font-semibold italic text-blue-500 font-semi-bold">
+            o
+            <span className="text-blue-500 w-8 h-8 italic font-bold">.</span>
+            c
           </span>
         </div>
         <div className="md:hidden flex items-center">
@@ -93,8 +93,8 @@ function Nav() {
           </LinkS>
         </ul>
       </div>
-      {show && (
-        <ul className="md:hidden flex space-y-2 flex-col max-w-[80%] mx-auto tracking-wide items-start list-none justify-start text-[#474C55] text-lg">
+       <div className={`${show ? "block" : "hidden"}`}>
+       <ul className={`md:hidden flex space-y-2 flex-col max-w-[85%] mx-auto tracking-wide items-start list-none justify-start text-[#474C55] text-lg ${show ? 'translate-x-0' : '-translate-x-[100%]'} duration-300`}>
           <LinkS
             activeClass="text-[#fa6767]"
             to="portfolio"
@@ -146,7 +146,7 @@ function Nav() {
             </li>{" "}
           </LinkS>
         </ul>
-      )}
+       </div>
     </div>
   );
 }
